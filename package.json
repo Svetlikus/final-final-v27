@@ -1,0 +1,13 @@
+{
+  "name": "final-final-v27",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Client Feedback Simulator — an original fictional-credit browser game",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node tests.mjs",
+    "check": "node --check dist/app.js && node --check dist/music.js && node tests.mjs"
+  },
+  "engines": {"node": ">=20"}
+}
